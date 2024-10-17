@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Практическая работа</title>
+    <style>
+        /* Стили для абзаца */
+        p {
+            color: black;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>"Это Заголовок. Этот текст изменится на "Заголовок изменился"</h1>
+        <p>Это абзац текста. Он должен изменять свой цвет.<br> Также он скроется и появится, если нажать на нужную кнопку</p>
+        <ul id="item-list">
+            <li>Элемент списка 1</li>
+            <li>Элемент списка 2</li>
+            <li>Элемент списка 3</li>
+        </ul>
+    </div>
+    <div>
+        <p></p>
+        <img id="image" src="img/dieffenbachia.jpg" alt="image">
+    </div>
+    <div>
+        <p></p>
+        <a id="link" href="https://example.com">Ссылка</a>
+    </div>
+    <div>
+        <p></p>
+        <button id="add-item">Добавить элемент</button>
+    </div>
+    <div>
+        <p></p>
+        <button id="remove-item">Удалить последний элемент</button>
+    </div>
+    <div>
+        <p></p>
+        <button id="change-color">Изменить цвет текста</button>
+    </div>
+    <div>
+        <p></p>
+        <button id="toggle-paragraph">Показать/скрыть абзац</button>
+    </div>
+    <div>
+        <p></p>
+        <button id="get-dimensions">Получить размеры элемента</button>
+    </div>
+
+    <div id="size-element">
+        <p>Этот</p>
+        <p>элемент</p>
+        <p>для</p>
+        <p>работы</p>
+        <p>с размерами</p>
+        <!-- <p>Этот элемент для работы с размерами</p> -->
+    </div>
+
+    <div>
+        <form id="myForm">
+            <input type="text" id="name" placeholder="Имя" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
